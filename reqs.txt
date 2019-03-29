@@ -1,0 +1,3 @@
+Django
+social-auth-app-django
+django-sslserver
