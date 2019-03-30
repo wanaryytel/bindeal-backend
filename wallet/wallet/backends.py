@@ -54,7 +54,7 @@ class SwedbankOAuth2(BaseOAuth2):
 
         consent_request = requests.post(consent_url, data=data, headers=headers)
 
-        print(consent_request.text)
+        #print(consent_request.text)
         consent_request.raise_for_status()
 
         # extra_data = sc_auth.extra_data
