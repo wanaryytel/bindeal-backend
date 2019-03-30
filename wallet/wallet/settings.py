@@ -130,5 +130,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
 ALLOWED_HOSTS = ['178.62.207.93', '127.0.0.1']
+SOCIAL_AUTH_LOGIN_REDIRECT_URL = 'https://bindeal-mvp.firebaseapp.com/swedbank/success'
