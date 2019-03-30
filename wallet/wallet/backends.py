@@ -70,6 +70,9 @@ class SwedbankOAuth2(BaseOAuth2):
 
         return consent_id
 
+    def get_redirect_uri(self, state=None):
+        return 'https://wilt.ee/complete/swedbank/'
+
 
 
     # EXTRA_DATA = [(, )]
